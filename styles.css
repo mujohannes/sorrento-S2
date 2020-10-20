@@ -1,0 +1,39 @@
+/* variables */
+:root {
+  --main-font: Helvetica, Calibri, sans-serif;
+  --nav-link: #4d1d18;
+  --nav-hover: #555555;
+  --main-heading: #87423c;
+  --main-heading-size: 36px;
+  --sub-heading: #4d1d18;
+  --sub-heading-size: 24px;
+  --content-lh: 150%;
+  --content-link: #87423c;
+  --footer-link: #87423c;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+h1 {
+  color: var(--main-heading);
+  font-size: var(--main-heading-size);
+}
+
+h2 {
+  color: var(--sub-heading);
+  font-size: var(--sub-heading-size);
+}
+
+.content {
+  line-height: var(--content-lh);
+}
+
+.content a {
+  color: var(--content-link);
+}
+
+.footer {
+  color: var(--footer-link);
+}
