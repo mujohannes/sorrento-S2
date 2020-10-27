@@ -20,7 +20,23 @@
         <a href="contact.html" class="active">Contact</a>
       </nav>
     </header>
-    <main class="content"></main>
+    <main class="content">
+      <form id="contact" method="POST" action="https://example.com/send">
+        <h1>Contact Us</h1>
+        <label class="label" for="user-name">Your Name</label>
+        <input type="text" class="input" id="user-name" name="sender" placeholder="Jane Smith">
+        <label class="label" for="user-email">Your Email Address</label>
+        <input type="email" class="input" id="user-email" name="email" placeholder="jane@example.com">
+        <label class="label" for="user-subject">Subject</label>
+        <input type="text" class="input" id="user-subject" name="subject" placeholder="accommodation availability">
+        <label class="label" for="user-message">Message</label>
+        <textarea class="input" id="user-message" name="message" placeholder="Hello there" cols="25" rows="6"></textarea>
+        <div class="buttons">
+          <button type="reset" class="button">Cancel</button>
+          <button type="submit" class="button">Send</button>
+        </div>
+      </form>
+    </main>
     <footer class="footer">
       <nav class="secondary-nav">
         <a href="privacy.html">Privacy policy</a>
