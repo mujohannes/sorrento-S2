@@ -53,6 +53,21 @@ h2 {
 .home-link {
   justify-self: center;
 }
+#navbutton {
+  width: 52px;
+  height: 52px;
+  background-color: transparent;
+  border: 1px solid var(--light-grey);
+  color: var(--light-grey);
+  font-size: 28px;
+  border-radius: 0.3rem;
+  display: none;
+}
+
+#navbutton:focus {
+  outline: transparent;
+  background-color: var(--nav-link);
+}
 
 .navigation {
   display: flex;
