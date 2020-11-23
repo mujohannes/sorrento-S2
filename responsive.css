@@ -37,4 +37,18 @@
   .navigation.open {
     max-height: 50vh;
   }
+
+  #map {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  #contact {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    max-width: 100%;
+    margin: 0;
+  }
+  .content {
+    min-width: 90vw;
+  }
 }
