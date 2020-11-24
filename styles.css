@@ -100,7 +100,7 @@ h2 {
 .content {
   line-height: var(--content-lh);
   max-width: 1024px;
-  margin: auto;
+  margin: 30px auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
@@ -176,7 +176,6 @@ h2 {
 /* contact page */
 #contact {
   max-width: 640px;
-  margin: auto;
   /* margin-top: 4em; */
 }
 .label {
