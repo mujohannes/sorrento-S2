@@ -209,13 +209,9 @@ h2 {
   grid-column-start: 2;
   grid-column-end: 4;
 }
-/* slideshow */
-#slideshow {
-  /* height: 50vh; */
-}
-#slideshow .slide img{
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-  object-position: center;
+
+#calendar {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  min-width: 100%;
 }
