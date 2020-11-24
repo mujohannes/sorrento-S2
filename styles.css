@@ -110,6 +110,8 @@ h2 {
 }
 #video {
   grid-column: span 3;
+  width: 100%;
+  border: 0;
 }
 .item {
   grid-column: span 1;
@@ -207,10 +209,13 @@ h2 {
   min-width: 100%;
   grid-column-start: 2;
   grid-column-end: 4;
+  border: 0;
 }
 
 #calendar {
   grid-column-start: 1;
   grid-column-end: 4;
   min-width: 100%;
+  border: 0;
+  overflow: hidden;
 }
